@@ -1,0 +1,90 @@
+/* CSS Document */
+
+/*头部区*/
+.header{ width:980px; height:116px; margin:0 auto;}
+.header div{ margin-top:27px;}
+.header .logo{ width:331px; height:76px;}
+.header .info{ width:472px; height:76px;}
+.header .info p{height:22px; line-height:22px;}
+.header .info p span i{ color:#003399; font-weight:bold; font-family:"Arial";}
+.header .info .p1{ ; padding-bottom:5px;}
+.header .info .p1 a{ color:#484848; text-decoration:none;}
+.header .info .p1 a:hover{ color:#003399; text-decoration:underline;}
+.header .info .p2{ font-family:"微软雅黑";}
+.header .info .p2 a{ color:#003399;}
+.header .info .p2 a:hover{ color:#f60; text-decoration:underline;}
+
+/*进度条*/
+.prompt{ width:100%; height:66px; background:url(../images/shop/promptBj.jpg) repeat-x;}
+.prompt .promptCon{ width:960px; height:66px; margin:0 auto; background:url(../images/shop/prompt.jpg) no-repeat;}
+
+/*购物车*/
+.cart{ width:958px; border:1px solid #bbbbbb; background:#ffffcc; margin:21px auto 0 auto;}
+
+/*--购物车结果*/
+.cart .settlement{ width:176px;}
+.cart .settlement h3{ height:32px; line-height:32px; color:#484848; font-weight:bold; font-size:12px; border-bottom:1px solid #bbbbbb;}
+.cart .settlement h3 i{ padding-left:8px;}
+.cart .settlement p{ height:34px; line-height:34px; color:#484848; padding-left:16px;}
+.cart .settlement .setMoney{ padding-top:10px;}
+.cart .settlement p i{ font-family:"微软雅黑"; color:#f60; font-weight:bold; padding-right:16px;}
+.cart .settlement input{ background:#f7661f; color:#fff; text-align:center; width:155px; height:48px; line-height:48px; border:none; border-radius:5px;  font-family:"微软雅黑";margin-right:47px; font-size:18px; display:block; margin:6px auto;}
+.cart .settlement input:hover{ background:#ff971c;}
+.cart .settlement a{ color:#003399; margin-left:80px;}
+.cart .settlement a:hover{ color:#f60;}
+
+/*边框阴影*/
+.borderBj{ background:url(../images/shop/borderBj.jpg) repeat-x; height:4px; width:960px; margin:0 auto;}
+
+/*--购物车列表*/
+.cart .order{ border-right:1px solid #bbbbbb; width:781px; background:#FFF;}
+.cart .order h3{ height:32px; line-height:32px; color:#484848; font-weight:bold; font-size:12px; border-bottom:1px solid #bbbbbb;}
+.cart .order h3 i{ padding-left:8px;}
+.cart .order table{ width:760px; margin:0 auto; padding-bottom:20px;}
+.cart .order table .title td{ height:36px; color:#484848;}
+.cart .order table .list td{ border-top:1px solid #d9d9d9; height:100px;}
+.cart .order table .list td .listImg{ width:90px; height:100px;}
+.cart .order table .list td .listImg img{ margin-top:20px; margin-left:5px;}
+.cart .order table .list td .Text{ padding-top:30px; width:260px; font-family:"Arial";}
+.cart .order table .list td .Text a{ color:#555; text-decoration:none;}
+.cart .order table .list td .Text a:hover{ color:#003399; text-decoration:none;}
+.cart .order table .list .money{ font-family:"微软雅黑";}
+.cart .order table .list .delete a{ color:#003399;}
+.cart .order table .list .delete a:hover{ color:#f60;}
+.cart .order table .list .addOrsub{}
+.cart .order table .list .addOrsub span{ width:56px; height:24px; margin-left:20px;}
+.cart .order table .list .addOrsub span .inputText{ width:36px; height:22px; border:1px solid #bbb; text-align:center; color:#333;}
+.cart .order table .list .addOrsub span p{ width:13px; height:24px;}
+.cart .order table .list .addOrsub span .add{ width:13px; height:11px; background:
+url(../images/shop/add.jpg) no-repeat; border:none;}
+.cart .order table .list .addOrsub span .sub{ width:13px; height:11px; background:
+url(../images/shop/sub.jpg) no-repeat; border:none; margin-top:2px;}
+
+/*推荐区*/
+.share{ width:958px; height:295px; margin:16px auto 0 auto; border:1px solid #bfbfbf;}
+.share>span{ width:958px; height:34px; background:url(../images/shop/shareBj.jpg) repeat;}
+.share>span h3{ width:120px; height:32px; line-height:32px; border-bottom:2px solid #ff6600;}
+.share>span h3 i{ font-weight:bold; color:#f60; padding-left:30px;}
+.share dl{ width:150px; height:220px; margin-top:20px; margin-left:35px;}
+.share dl dt{ width:150px; height:110px;}
+.share dl dt img{ margin-left:3px;}
+.share dl dd{  font-family:"Arial";}
+.share dl dd p{ line-height:18px;}
+.share dl dd p a{ color:#666; text-decoration:none;}
+.share dl dd p a:hover{ color:#003399; text-decoration:underline;}
+.share dl dd span{ line-height:18px; color:#84984f;}
+.share dl dd i{font-family:"微软雅黑"; color:#f60; font-size:14px; display:block; padding-top:6px; padding-bottom:6px;}
+.share dl dd input{ width:80px; height:23px; display:block; margin:0 auto;}
+
+/*底部备案信息*/
+.footer{ width:960px; height:90px; margin:20px auto 0 auto;}
+.footer p{ text-align:center;  font-family:"Arial"; line-height:23px;}
+.footer p a{ color:#484848; text-decoration:none;}
+.footer p a:hover{ text-decoration:underline;}
+
+
+
+
+
+
+

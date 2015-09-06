@@ -1,0 +1,10 @@
+/* CSS Document */
+
+div{ width:680px; margin:20px auto; padding:0 20px; border:1px solid #eee;}
+div ul{ border-bottom:1px solid #039; margin-top:10px; padding:6px 0;}
+div ul li{ line-height:22px;}
+div ul li input[type="text"]{ border:1px solid #666; padding-left:8px;}
+div table { border-top:1px solid #666; border-right:1px solid #666; margin-top:10px;}
+div table tr td{ font-size:13px; border-left:1px solid #666; border-bottom:1px solid #666; padding:3px 6px;}
+div table tr td input[type="text"]{ border:1px solid #666; padding-left:8px; width:40px;}
+div input[type="submit"]{ margin:10px 0;}

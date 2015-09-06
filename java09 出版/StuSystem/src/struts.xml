@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<constant name="struts.ui.theme" value="simple"></constant>  
+	<constant name="struts.configuration.xml.reload" value="true"></constant>  
+	<package name="cn.action" extends="struts-default" namespace="/">
+		<!-- 显示列表 -->
+		<action name="toList" class="cn.action.StandardsAction" 
+			method="toList">
+			<result name="success">list.jsp</result>
+		</action>
+		<!-- 修改 -->
+		<action name="toUpdate" class="cn.action.StandardsAction"
+			method="toUpdate">
+			<result name="success">update.jsp</result>
+			<result name="tolist">index.jsp</result>
+		</action>
+		<!-- 增加 -->
+		<action name="toAdd" class="cn.action.StandardsAction"
+			method="toAdd">
+			<result name="success">add.jsp</result>
+			<result name="tolist">index.jsp</result>
+		</action>
+		<!-- 删除 -->
+		<action name="toDelete" class="cn.action.StandardsAction"
+			method="toDelete">
+		</action>
+	</package>
+</struts>    

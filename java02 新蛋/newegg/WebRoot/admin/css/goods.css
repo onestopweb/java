@@ -1,0 +1,32 @@
+/* CSS Document */
+.submit{ background:#f7661f; color:#fff; text-align:center; width:46px; height:21px; line-height:21px; border:none; border-radius:3px; font-family:"Arial";}
+.submit:hover{ background:#ff971c;}
+
+.search{ width:1100px; margin:0 auto 20px auto;}
+.search table{width:100%; border:1px solid #ccc;}
+.searchInput{ background:#f4f4f4; height:34px;}
+.searchInput form{ display:inline; margin-left:10px; margin-right:8px;}
+.searchInput .text{ border:1px solid #ccc; height:18px; line-height:18px; padding-left:6px; font-family:"Arial"; width:80px;}
+
+.fillIn{ width:1100px; margin:0 auto;}
+.fillIn table{ width:100%; border-top:1px solid #ccc; border-left:1px solid #ccc;}
+.fillIn table td{ height:21px; text-align:center; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+.fillIn table .explain td{ background:#f4f4f4; font-family:"微软雅黑"; color:#333; font-weight:bold;}
+.fillIn table .item .key{ background:#436da8; color:#fff; font-family:"微软雅黑";}
+.fillIn table .item .value{ color:#333; font-family:"微软雅黑";}
+.fillIn table .item .value input{ color:#c00; border:none; font-family:"微软雅黑";}
+.fillIn table .item .value select{ color:#c00; border:none; font-family:"微软雅黑";}
+.fillIn table .item .value select option{ color:#c00; border:none; font-family:"微软雅黑";}
+.fillIn table .update td{ height:28px; padding-right:10px;}
+
+.upload{ width:1100px; margin:20px auto 0 auto;}
+.upload table{ width:100%; border-top:1px solid #ccc; border-left:1px solid #ccc;}
+.upload table td{ height:21px; text-align:center; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+.upload table .explain td{ background:#f4f4f4; font-family:"微软雅黑"; color:#333; font-weight:bold;}
+.upload table .item .key{ background:#436da8; color:#fff; font-family:"微软雅黑"; text-align:right; padding-right:10px;}
+.upload table .item .value{ color:#333; font-family:"微软雅黑";}
+.upload table .item .value input{ color:#c00; border:none; font-family:"微软雅黑";}
+.upload table .item .value select{ color:#c00; border:none; font-family:"微软雅黑";}
+.upload table .item .value select option{ color:#c00; border:none; font-family:"微软雅黑";}
+.upload table .update td{ height:28px; padding-right:10px;}
+

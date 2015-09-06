@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"struts-2.3.dtd">
+<struts>
+	<!-- 配置文件修改的时候被重新加载 -->
+	<constant name="struts.configuration.xml.reload" value="true"></constant>
+	<!-- 修改系统的主题（页面） -->
+	<constant name="struts.ui.theme" value="simple"></constant>
+	<package name="default" namespace="/" extends="struts-default">
+		<global-results>
+			<result name="error">error.jsp</result>
+		</global-results>
+		<action name="getAllGoods" class="action.GetAllGoodsAction">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="selectedGoods" class="action.GetSelectedGoodsAction">
+			<result name="success">selected.jsp</result>
+		</action>
+		<action name="saveOrder" class="action.saveOrderAction">
+			<result name="success">order.jsp</result>
+		</action>
+	</package>
+</struts>

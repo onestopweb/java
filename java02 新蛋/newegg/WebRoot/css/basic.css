@@ -1,0 +1,16 @@
+/* CSS Document */
+
+/*公共样式*/
+*{ margin:0; padding:0; word-break:break-all;}
+body{ font-family:"宋体"; color:#666; font-size:12px; background:#fff;}
+a{ color:#666; text-decoration:none;}
+a:hover{ color:#666; text-decoration:none;}
+a img{ border:none;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+span{ display:block;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+ul li{ list-style-type:none;}
+.c{ clear:both;}
+

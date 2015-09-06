@@ -1,0 +1,20 @@
+/* CSS Document */
+
+
+/*登陆界面*/
+.interface{ width:600px; height:455px; background:#ededed; margin:60px auto 0 auto;}
+
+.title{ width:600px; height:82px; background:url(../images/loginOfAdmin/titleBj.jpg) repeat-x;}
+.title img { margin-left:127px; margin-top:24px;}
+
+.login{ background:url(../images/loginOfAdmin/loginBj.jpg) no-repeat; width:419px; height:220px; margin-left:86px; margin-top:25px; padding-top:95px;}
+.login input{ display:block;}
+.login .admin{ border:1px solid #b5b5b5; width:187px; height:41px; margin-left:95px; background:url(../images/loginOfAdmin/adminIcon.jpg) no-repeat; padding-left:41px; color:#333; font-size:14px; font-family:"Arial";}
+.login .adminPass{ border:1px solid #b5b5b5; width:187px; margin-top:18px; height:41px; margin-left:95px; background:url(../images/loginOfAdmin/adminPassIcon.jpg) no-repeat; padding-left:41px;}
+.login .submit{ background:#009fe9; width:140px; height:45px; margin-left:139px; margin-top:22px; border:none; color:#fff; font-family:"微软雅黑"; font-size:16px;}
+
+
+
+
+
+

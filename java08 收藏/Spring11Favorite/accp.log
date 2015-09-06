@@ -1,0 +1,20 @@
+2015-01-05 19:06:45 Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@78e185: startup date [Mon Jan 05 19:06:45 CST 2015]; root of context hierarchy
+2015-01-05 19:06:45 Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-05 19:06:46 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4adff7: defining beans [dataSource,sessionFactory,favDAO,tagDAO,tagBiz,favBiz,favAction]; root of factory hierarchy
+2015-01-05 19:06:46 Building new Hibernate SessionFactory
+2015-01-05 19:06:57 Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5063a5: startup date [Mon Jan 05 19:06:57 CST 2015]; root of context hierarchy
+2015-01-05 19:06:57 Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-05 19:06:57 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@143dd30: defining beans [dataSource,sessionFactory,favDAO,tagDAO,tagBiz,favBiz,favAction]; root of factory hierarchy
+2015-01-05 19:06:57 Building new Hibernate SessionFactory
+2015-01-05 19:20:57 Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1085e92: startup date [Mon Jan 05 19:20:57 CST 2015]; root of context hierarchy
+2015-01-05 19:20:57 Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-05 19:20:58 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b63bc9: defining beans [dataSource,sessionFactory,favDAO,tagDAO,tagBiz,favBiz,favAction]; root of factory hierarchy
+2015-01-05 19:20:58 Building new Hibernate SessionFactory
+2015-01-05 19:29:08 Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e7c832: startup date [Mon Jan 05 19:29:08 CST 2015]; root of context hierarchy
+2015-01-05 19:29:08 Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-05 19:29:08 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b63bc9: defining beans [dataSource,sessionFactory,favDAO,tagDAO,tagBiz,favBiz,favAction]; root of factory hierarchy
+2015-01-05 19:29:08 Building new Hibernate SessionFactory
+2015-01-05 19:41:18 Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f536e8: startup date [Mon Jan 05 19:41:18 CST 2015]; root of context hierarchy
+2015-01-05 19:41:18 Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-05 19:41:18 Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d098b7: defining beans [dataSource,sessionFactory,favDAO,tagDAO,tagBiz,favBiz,favAction]; root of factory hierarchy
+2015-01-05 19:41:18 Building new Hibernate SessionFactory

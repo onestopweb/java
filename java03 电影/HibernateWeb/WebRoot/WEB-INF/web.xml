@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>addMovieSer</servlet-name>
+    <servlet-class>servlet.AddMovieSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectListSer</servlet-name>
+    <servlet-class>servlet.SelectListSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showListSer</servlet-name>
+    <servlet-class>servlet.ShowListSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>indexSer</servlet-name>
+    <servlet-class>servlet.IndexSer</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>addMovieSer</servlet-name>
+    <url-pattern>/addMovie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectListSer</servlet-name>
+    <url-pattern>/selectList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showListSer</servlet-name>
+    <url-pattern>/showList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexSer</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

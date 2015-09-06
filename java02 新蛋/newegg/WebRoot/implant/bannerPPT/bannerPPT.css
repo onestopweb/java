@@ -1,0 +1,47 @@
+/* CSS Document */
+
+/*公共样式*/
+*{ margin:0; padding:0; word-break:break-all;}
+body{ font-family:"宋体"; color:#666; font-size:12px; background:#fff;}
+a{ color:#666; text-decoration:none;}
+a:hover{ color:#666; text-decoration:none;}
+a img{ border:none;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+span{ display:block;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+ul li{ list-style-type:none;}
+.c{ clear:both;}
+
+/*控制页面*/
+#slideContainer{ width:771px; height:245px; overflow:hidden; position:relative;}
+#slideBar { position: absolute; bottom: 18px; right: 20px; width:168px; height:20px;}
+#slideBar li { background:#737373; width:20px; height:20px; float:left; text-align:center; line-height:20px; margin-right:1px; color: #FFF; overflow: hidden; }
+#slideBar li.on { background:#f60; color: #fff; font-weight: 700; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

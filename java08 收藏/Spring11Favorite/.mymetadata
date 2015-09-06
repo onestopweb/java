@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Spring11Favorite"
+  id="myeclipse.1420455605161"
+  context-root="/Spring11Favorite"
+  j2ee-spec="6.0"
+  archive="Spring11Favorite.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "struts-2.1.dtd">
+<struts>
+	<constant name="struts.ui.theme" value="simple"></constant>
+	<package name="default" namespace="/" extends="struts-default">
+		<!-- 显示学生列表 -->
+		<action name="list" class="cn.action.StudentAction" method="list">
+			<result name="success">/index.jsp</result>
+		</action>
+		<!-- 根据id查询学生信息 -->
+		<action name="selected" class="cn.action.StudentAction" method="selected">
+			<result name="success">/update.jsp</result>
+		</action>
+		<!-- 修改学生信息 -->
+		<action name="updated" class="cn.action.StudentAction" method="updated">
+			<result name="success">/index.jsp</result>
+			<result name="input">/update.jsp</result>
+		</action>
+	</package>
+</struts>    

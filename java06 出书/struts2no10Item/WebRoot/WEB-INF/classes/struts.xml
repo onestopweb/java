@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"></constant>
+	<package name="default" namespace="/" extends="json-default">
+		<!-- 显示所有的书籍 -->
+		<action name="list" class="cn.action.BookAction" method="list">
+			<result type="json">
+				<!-- 指定的属性做为根元素输出 -->
+				<param name="root">data</param>
+			</result>
+		</action>
+		<!-- 添加书籍 -->
+		<action name="addBook" class="cn.action.BookAction" method="addBook">
+			<result type="json">
+				<param name="root">operateSuccess</param>
+			</result>
+		</action>
+		<!-- 删除书籍 -->
+		<action name="deleteBook" class="cn.action.BookAction" method="deleteBook">
+			<result type="json">
+				<param name="root">operateSuccess</param>
+			</result>
+		</action>
+		<!-- 更新书籍 -->
+		<action name="updateBook" class="cn.action.BookAction" method="updateBook">
+			<result type="json">
+				<param name="root">operateSuccess</param>
+			</result>
+		</action>
+	</package>
+</struts>    

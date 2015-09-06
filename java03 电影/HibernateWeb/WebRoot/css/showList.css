@@ -1,0 +1,6 @@
+/* CSS Document */
+
+table{ border:1px solid #333; margin:40px auto 0 auto; border:1px solid #333;}
+table tr *{ padding:3px 5px;}
+table th{ height:21px; text-align:center; border:1px solid #333;}
+table td{ height:21px; border:1px solid #333;}

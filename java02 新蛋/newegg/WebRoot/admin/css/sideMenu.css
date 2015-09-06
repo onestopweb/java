@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.sideMenu{ width:153px;}
+.logo{ width:153px; height:75px;}
+
+.info{ height:75px; width:145px; border:1px solid #bcbcbc; border-top:none; font-family:"微软雅黑"; line-height:21px; padding-left:6px;}
+.info .p1{ padding-top:5px; color:#333;}
+.info .p2{ color:#039;}
+.info .p2 a{ color:#039;}
+.info .p3{ color:#999;}
+
+h3{ background:url(../images/sidebarTitle.jpg) repeat-x; height:26px; width:153px; color:#fff; font-size:12px; font-family:"微软雅黑";;}
+h3 a{  color:#fff; font-size:12px;   background:url(../images/buttomHover.jpg) no-repeat; padding-left:30px; height:26px; display:block; line-height:26px;}
+h3 a:hover{ color:#b6241f;}
+ul{ background:#d4e7f9; font-family:"微软雅黑";}
+ul li{ background:url(../images/sidebarBj.jpg) no-repeat; height:26px; line-height:26px; padding-left:36px;}
+ul li a { color:#203c73;}

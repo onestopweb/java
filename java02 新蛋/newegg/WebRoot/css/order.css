@@ -1,0 +1,78 @@
+/* CSS Document */
+
+/*头部区*/
+.header{ width:980px; height:116px; margin:0 auto;}
+.header div{ margin-top:27px;}
+.header .logo{ width:331px; height:76px;}
+.header .info{ width:472px; height:76px;}
+.header .info p{height:22px; line-height:22px;}
+.header .info p span i{ color:#003399; font-weight:bold; font-family:"Arial";}
+.header .info .p1{ ; padding-bottom:5px;}
+.header .info .p1 a{ color:#484848; text-decoration:none;}
+.header .info .p1 a:hover{ color:#003399; text-decoration:underline;}
+.header .info .p2{ font-family:"微软雅黑";}
+.header .info .p2 a{ color:#003399;}
+.header .info .p2 a:hover{ color:#f60; text-decoration:underline;}
+
+/*进度条*/
+.prompt{ width:100%; height:66px; background:url(../images/shop/promptBj.jpg) repeat-x;}
+.prompt .promptCon{ width:960px; height:66px; margin:0 auto; background:url(../images/shop/prompt2.jpg) no-repeat;}
+
+/*标题*/
+.title{ background:url(../images/shop/titleBj.jpg) repeat-x; width:980px; height:14px; margin:30px auto 0 auto;}
+.title h3{ width:148px; height:14px; background:#FFF; font-size:14px; font-weight:bold; color:#843d14;}
+.title .w{ width:80px;}
+.title h3 i{ padding-left:4px;}
+
+/*地址区*/
+.site{ width:918px; height:286px; background:#fffdcf; border:1px solid #d6d6b4; margin:20px auto 0 auto; }
+.site div{ height:25px; padding-top:9px;}
+.site div h4{ width:164px; height:25px; line-height:25px; font-size:12px; color:#484848; font-weight:normal;}
+.site .consignee span, .site .phone span,.site .tel span{ width:214px; height:25px; margin-left:6px;}
+.site .choose span{ margin-left:6px;}
+.site .address span{ width:410px; height:25px; margin-left:6px;}
+.site .code span,.site .email span{ width:102px; height:20px; margin-left:6px;}
+.site .consignee span input, .site .phone span input,.site .tel span input{ width:206px; height:23px; line-height:23px; padding-left:6px; border:1px solid #aaa; color:#000;}
+.site .choose span select{ height:20px; line-height:25px; border:1px solid #aaa;}
+.site div p { height:25px; line-height:25px;  font-family:"Arial";}
+.site .address span input{width:402px; height:23px; line-height:23px; padding-left:6px; border:1px solid #aaa; color:#000;}
+.site .code span input,.site .email span input{ width:94px; height:23px; line-height:23px; padding-left:6px; border:1px solid #aaa; color:#000;}
+.site div p i{ padding:0 6px; color:#ff6600;}
+.site div p em{  height:25px; line-height:25px; font-size:12px; display:block; padding-left:24px; color:#c00;}
+.site .confirm span .submit{background:#f7661f; color:#fff; text-align:center; width:94px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial"; margin-right:6px;}
+.site .confirm span .submit:hover{ background:#ff971c;}
+.site .confirm span .reset{ width:46px; height:25px;}
+
+/*确认订单*/
+.order{ width:970px; border:5px solid #dbdbdb; background:#fffdcf; margin:20px auto 0 auto;}
+.order .item{ width:709px; background:#fff; border-right:1px solid #d6d6b4;}
+.order .item .h3-1{ height:36px; line-height:36px; color:#843d14; font-size:14px; font-weight:bold; width:690px; margin:0 auto; background:#fff4e5;}
+.order .item .h3-1 i{ padding-left:10px;}
+.order .item .h3-2{ height:36px; line-height:36px; color:#843d14; font-size:14px; font-weight:bold; width:690px; margin:0 auto; background:#fff4e5; }
+.order .item .h3-2 i{ padding-left:10px;}
+.order .item table{ width:670px; margin:0 auto; font-family:"微软雅黑";}
+.order .item table .head{ height:30px;}
+.order .item table .head td{ font-weight:bold; color:#484848;}
+.order .item table .list{ height:28px;}
+.order .item table .list td{ border-top:1px solid #ccc;}
+.order .item table .list td a{ color:#003399; text-decoration:none;}
+.order .item table .list td a:hover{ color:#f60; text-decoration:underline;}
+.order .item  span{ width:670px; margin:0 auto;}
+.order .item  span p{ line-height:18px; padding-top:5px; padding-bottom:5px; padding-left:20px; padding-right:20px; border-bottom:1px dashed #ccc;}
+.order .item  span p i{ color:#484848;}
+.order .item  span p em{ font-family:"微软雅黑"; padding-left:6px; color:#666;}
+.order .item  span .border{ border:none;}
+.final{ width:240px; margin-right:10px;}
+.final h3{ height:36px;height:36px; line-height:36px; color:#843d14; font-size:14px; font-weight:bold; width:240px; border-bottom:1px solid #d6d6b4;}
+.final p{ line-height:35px; font-size:14px; padding-left:10px; padding-right:10px;}
+.final .setMoney{ margin-top:10px;}
+.final p i{ font-family:"微软雅黑"; font-size:16px; color:#484848; font-weight:bold;}
+.final span{ line-height:35px; margin-top:30px; color:#f60; font-family:"微软雅黑"; font-size:18px; font-weight:bold;}
+.final input{ width:233px; height:48px; display:block; margin:10px auto 0 auto; color:#fff; background:#f7661f;  font-family:"微软雅黑"; text-align:center; line-height:48px; font-size:22px; border:none;  border-radius:5px; font-weight:700;}
+.final input:hover{ background:#ff971c;}
+
+/*底部备案信息*/
+.footer{ width:960px; height:90px; margin:30px auto 0 auto;}
+.footer p{ text-align:center;  font-family:"Arial"; line-height:23px;}
+.footer p a{ color:#484848; text-decoration:none;}
+.footer p a:hover{ text-decoration:underline;}

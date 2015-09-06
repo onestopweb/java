@@ -1,0 +1,58 @@
+/* CSS Document */
+
+/*头部区*/
+.header{ width:980px; height:116px; margin:0 auto;}
+.header div{ margin-top:27px;}
+.header .logo{ width:331px; height:76px;}
+.header .info{ width:472px; height:76px;}
+.header .info p{height:22px; line-height:22px;}
+.header .info p span i{ color:#003399; font-weight:bold;  font-family:"Arial";}
+.header .info .p1{ ; padding-bottom:5px;}
+.header .info .p1 a{ color:#484848; text-decoration:none;}
+.header .info .p1 a:hover{ color:#003399; text-decoration:underline;}
+.header .info .p2{ font-family:"微软雅黑";}
+.header .info .p2 a{ color:#003399;}
+.header .info .p2 a:hover{ color:#f60; text-decoration:underline;}
+
+/*进度条*/
+.prompt{ width:100%; height:66px; background:url(../images/shop/promptBj.jpg) repeat-x;}
+.prompt .promptCon{ width:960px; height:66px; margin:0 auto; background:url(../images/shop/prompt3.jpg) no-repeat;}
+
+
+/*提示成功*/
+.success{ background:#fef7e4; width:978px; margin:20px auto 0 auto; border:1px solid #fecf97;}
+.text{ width:478px;}
+.text h3{ color:#ff4e00; height:23px; line-height:23px; font-weight:bold; background:url(../images/shop/yes.jpg) no-repeat; margin-left:20px; margin-top:20px;}
+.text h3 i{ padding-left:30px;}
+.text p{ line-height:23px; margin-left:20px; padding-right:40px; font-weight:bold; color:#484848; font-family:"微软雅黑";}
+.text p em{ font-weight:normal;}
+.text p i{ color:#fe7b23;}
+.text p a{ color:#1c459d; font-weight:normal;}
+.text p a:hover{ color:#f60;}
+.text .setColor{ color:#b7b7b7; font-weight:normal; margin-top:6px;}
+.text .setColor2{ color:#f60; margin-top:6px;}
+.text .setColor2 i{ font-size:16px;}
+.text .setCon{ background:url(../images/shop/icon.jpg) no-repeat 0px 4px; padding-left:20px; font-weight:normal; margin-top:10px;}
+.text .setCon a{ font-weight:bold;}
+.share{ width:499px; margin-left:479px; margin-bottom:30px;}
+.share h3{ height:36px; line-height:36px; color:#f60; font-weight:bold; margin-top:10px;}
+.share .h4{ height:28px; background:url(../images/shop/shareH4Bj.jpg) repeat-x; width:483px;}
+.share .h4 h4{ width:97px; height:26px; line-height:24px;margin-right:7px;}
+.share .h4 .icon01{background: url(../images/icon01.jpg) no-repeat 6px 4px; }
+.share .h4 .icon02{background: url(../images/icon02.jpg) no-repeat 6px 4px; }
+.share .h4 .icon03{background: url(../images/icon03.jpg) no-repeat 6px 4px; }
+.share .h4 .icon04{background: url(../images/icon04.jpg) no-repeat 6px 4px; }
+.share .h4 h4 a{ padding-left:35px;}
+.share .con{  width:483px;  border-left:1px solid #eed9be;  border-right:1px solid #eed9be;  border-bottom:1px solid #eed9be; background:#fff;}
+.share .con span{ width:113px; height:86px; margin-left:35px; margin-top:35px; border:1px solid #cfcfcf;}
+.share .con span img{ margin-left:13px; margin-top:16px;}
+.share .con textarea{ width:378px; height:58px; resize: none;  border:1px solid #b6b6b6; display:block; margin: 0 auto;  border-radius:5px; line-height:21px; color:#484848; font-size:12px; padding-left:10px; padding-right:10px;  font-family:"Arial"; }
+.share .con input{ width:70px; height:25px; border:none;  border-radius:3px; background:#f7661f; color:#fff; text-align:center; line-height:25px; display:block; margin:28px auto 20px auto; }
+.share .con input:hover{ background:#ff971c;}
+
+
+/*底部备案信息*/
+.footer{ width:960px; height:90px; margin:30px auto 0 auto;}
+.footer p{ text-align:center;  font-family:"Arial"; line-height:23px;}
+.footer p a{ color:#484848; text-decoration:none;}
+.footer p a:hover{ text-decoration:underline;}

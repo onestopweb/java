@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<package name="Fav" extends="struts-default" namespace="/">
+		<action name="toAdd" class="cn.action.FavAction" method="toAdd">
+			<result name="success">WEB-INF/jsp/fav/add.jsp</result>
+		</action>
+		<action name="doAdd" class="cn.action.FavAction" method="doAdd">
+			<result name="success">WEB-INF/jsp/fav/list.jsp</result>
+		</action>
+		<action name="toList" class="cn.action.FavAction" method="toList">
+			<result name="success">WEB-INF/jsp/fav/list.jsp</result>
+		</action>
+		<action name="toCloud" class="cn.action.FavAction" method="toCloud">
+			<result name="success">WEB-INF/jsp/fav/cloud.jsp</result>
+		</action>
+	</package>
+</struts>    

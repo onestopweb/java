@@ -1,0 +1,83 @@
+/* CSS Document */
+
+/*标头*/
+.header{ width:100%; height:24px; background:#f1f1f1; border-bottom:1px solid #e2e2e2;}
+.header a{ color:#666;}
+.header a:hover{ color:#1e4c9a; text-decoration:underline;}
+.header .headerCon{ width:980px; height:24px; margin:0 auto; position:relative;}
+.headerCon .headerLeft{ width:260px; height:12px; padding-top:7px;}
+.headerCon .headerLeft li{ line-height:12px;}
+.headerCon .headerLeft .phone{ background:url(../images/phone.jpg) no-repeat; margin-left:7px; width:72px; text-align:center;}
+.headerCon .headerLeft .phone:hover{ background:url(../images/phoneHover.jpg) no-repeat;}
+.headerCon .headerLeft .customer{ background:url(../images/customer.jpg) no-repeat; width:70px; text-align:center; padding-left:6px;}
+.headerCon .headerLeft .customer:hover{ background:url(../images/customerHover.jpg) no-repeat;}
+.headerCon .headerLeft .platform{ background:url(../images/platform.jpg) no-repeat; width:104px; text-align:center;}
+.headerCon .headerLeft .platform:hover{ background:url(../images/platformHover.jpg) no-repeat;}
+.headerCon .headerRight{ width:308px; height:23px; margin-top:1px;}
+.headerCon .headerRight li{ height:23px; line-height:23px;}
+.headerCon .headerRight .welcome{ width:164px; text-align:center;}
+.headerCon .headerRight .help{ width:56px; text-align:center;}
+.headerCon .headerRight .service{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0;}
+
+/*客户服务的菜单*/
+.service2{ width:146px; height:99px; background:url(../images/service2.png) no-repeat;border-left:1px solid #eee; border-bottom:1px solid #eee; border-right:1px solid #eee; position:absolute; top:24px; z-index:99; right:3px;}
+
+/*logn图片和标题*/
+.searchbar{ width:980px; height:86px; margin:0 auto;}
+.searchbar .logo{ width:326px; height:86px;}
+.searchbar .logo img{ padding:11px 0 0 4px;}
+.searchbar h3{ height:50px; margin-left:23px; margin-top:18px; border-left:1px solid #d9d9d9; line-height:50px; font-family:"微软雅黑"; color:#484848; font-size:23px; font-weight:normal;}
+.searchbar h3 i{ padding-left:26px;}
+
+/*标题区*/
+.caption{ width:979px; height:41px; border-bottom:1px solid #ccc; margin:10px auto 0 auto;}
+.caption h3{ width:97px; height:41px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc; background:#fff; text-align:center; line-height:40px; color:#666; font-weight:bold; font-size:14px;}
+
+/*注册区*/
+.area{ width:977px; height:408px; margin:0 auto 30px auto; border:1px solid #ccc; border-top:none;  font-family:"Arial";}
+.register{ width:742px; height:373px; padding-top:35px; border-right:1px solid #ccc;}
+.register p{ height:32px; line-height:32px; margin-bottom:18px;}
+.register p .text{ width:88px; height:32px; color:#676767;}
+.register p .text i{ padding-right:14px;}
+.register p .inputText{ width:252px; height:32px;}
+.register p .inputText input{ width:242px; padding-left:8px; height:30px; border:1px solid #cfcfcf;}
+.register p .inputText2{}
+.register p .inputText2 .code{ width:54px; padding-left:8px; height:30px; border:1px solid #cfcfcf; margin-right:4px;}
+.register p .inputText2 a{ color:#003399; text-decoration:none; margin-right:10px;}
+.register p .inputText2 a:hover{ color:#003399; text-decoration:underline;}
+.register p .inputText input,.register p .inputText2 .code{ line-height:30px; color:#484848;}
+.register p .submit input{ width:205px; height:32px; line-height:32px; background:#f7661f; border:none; border-radius:3px; color:#fff; text-align:center; font-weight:bold; font-size:14px;}
+.register p .submit input:hover{ background:#ff971c;}
+.register textarea{ width:600px; height:100px; border:1px solid #cfcfcf; font-size:12px; font-weight:normal; color:#999; margin-left:88px; resize: none;}
+
+/*--验证码样式*/
+.code2{ border:none; width:116px; height:32px; background:url(../images/register/codeBj.jpg) no-repeat; margin-right:10px; text-align:center; font-size:20px; font-family:Arial; font-style:italic; font-weight:bold; color:#333; letter-spacing:10px;}
+
+/*--侧栏*/
+.sidebar{ width:234px;}
+.sidebar span h3{ color:#7c7c7c; font-family:"微软雅黑"; font-size:16px; text-align:center; font-weight:bold;}
+.sidebar .span1{ width:234px; height:116px; border-bottom:1px solid #ccc;}
+.sidebar .span1 h3{ padding-top:40px;}
+.sidebar .span2 h3{ padding-top:47px; padding-bottom:4px;}
+.sidebar .span1 a{ color:#003399; display:block; margin-top:10px; text-align:center; font-size:16px;}
+.sidebar .span1 a:hover{ text-decoration:underline;}
+.sidebar .span2 p{ text-align:center; color:#7c7c7c; font-size:16px; padding-top:6px;}
+
+/*图标和Email*/
+.iconAndEmail{ width:980px; height:25px; margin:0 auto;}
+.icon{ height:18px; width:540px; margin:0 auto;}
+.icon h3{ font-weight:bold; font-size:12px; color:#484848; height:18px; width:80px;  line-height:18px;}
+.icon dl{ }
+.icon dl dt{ width:24px;}
+.icon dl dd{ padding-right:24px; line-height:18px;}
+.icon dl dd a{ color:#666; text-decoration:none;}
+.icon dl dd a:hover{ color:#666; text-decoration:underline;}
+
+/*底部备案信息*/
+.footer{ width:980px; height:220px; margin:10px auto 0 auto; border-top:1px solid #e6e6e6;}
+.footer p{ text-align:center; font-family:"Arial"; color:#666; line-height:18px;}
+.footer .footNav{ height:60px; line-height:60px;}
+.footer p a{ margin:0 10px;}
+.footer p a:hover{ text-decoration:underline;}
+.footer span{ width:478px; height:40px; margin:10px auto;}
+.footer span img{ margin:0 4px;}

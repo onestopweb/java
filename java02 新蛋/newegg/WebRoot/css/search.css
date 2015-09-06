@@ -1,0 +1,168 @@
+/* CSS Document */
+
+/*标头*/
+.header{ width:100%; height:24px; background:#f1f1f1; border-bottom:1px solid #e2e2e2;}
+.header a{ color:#666;}
+.header a:hover{ color:#1e4c9a; text-decoration:underline;}
+.header .headerCon{ width:1200px; height:24px; margin:0 auto; position:relative;}
+.headerCon .headerLeft{ width:260px; height:12px; padding-top:7px;}
+.headerCon .headerLeft li{ line-height:12px;}
+.headerCon .headerLeft .phone{ background:url(../images/phone.jpg) no-repeat; margin-left:7px; width:72px; text-align:center;}
+.headerCon .headerLeft .phone:hover{ background:url(../images/phoneHover.jpg) no-repeat;}
+.headerCon .headerLeft .customer{ background:url(../images/customer.jpg) no-repeat; width:70px; text-align:center; padding-left:6px;}
+.headerCon .headerLeft .customer:hover{ background:url(../images/customerHover.jpg) no-repeat;}
+.headerCon .headerLeft .platform{ background:url(../images/platform.jpg) no-repeat; width:104px; text-align:center;}
+.headerCon .headerLeft .platform:hover{ background:url(../images/platformHover.jpg) no-repeat;}
+.headerCon .headerRight{ width:700px; height:23px; margin-top:1px;}
+.headerCon .headerRight li{ height:23px; line-height:23px;}
+.headerCon .headerRight .service{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0; margin-right:7px;}
+.headerCon .headerRight .help{ width:56px; text-align:center;}
+.headerCon .headerRight .myNewegg{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0;}
+.headerCon .headerRight .myOrder{ width:56px; text-align:center;}
+.headerCon .headerRight .welcome{ width:164px; text-align:center;}
+.headerCon .headerRight .regOrLogin{ width:68px; background:url(../images/regOrLogin.jpg) no-repeat 32px 0px;}
+.headerCon .headerRight .username{}
+.headerCon .headerRight .username em{ color:#039; font-family:Arial; font-weight:bold; padding:0 8px;}
+.headerCon .headerRight .username a{ color:#484848; text-decoration:none;}
+.headerCon .headerRight .username a:hover{ color:#039; text-decoration:underline;}
+
+/*logn图片 和搜索栏 和七天退货图片*/
+.searchbar{ width:1200px; height:86px; margin:0 auto;}
+.searchbar .logo{ width:326px; height:86px;}
+.searchbar .logo img{ padding:11px 0 0 4px;}
+.searchbar .search{ width:439px; margin-left:42px; margin-top:18px;}
+.searchbar .search span{ width:439px; height:34px; background:url(../images/search.jpg) no-repeat;}
+.searchbar .search span .inputTxt{ width:331px; height:30px; border:2px solid #ff6600; line-height:30px; padding-left:6px;}
+.searchbar .search span .submitBut{border:none; height:30px; width:98px; background:#ff6600; font-size:14px; font-weight:bold; color:#fff;}
+.searchbar .search p{ height:30px; line-height:30px; font-family:"Arial";}
+.searchbar .search p a{ padding:0 16px;}
+
+/*导航*/
+.nav{ background:#10286c; height:40px; width:100%;}
+.navCon{ width:1200px; height:40px; margin:0 auto; position:relative;}
+.navCon .allClass{ width:179px; height:40px; background:#ff6600 url(../images/allClassImg.jpg) no-repeat 120px 19px; font-family:"微软雅黑"; color:#fff; font-size:14px; line-height:40px;}
+.navCon .allClass i{ padding-left:20px;}
+.navCon ul{ width:781px; height:40px;  font-family:"微软雅黑"; margin-left:10px; font-size:14px;}
+.navCon ul li{ padding:0 22px; line-height:40px;}
+.navCon ul li:hover{ background:#295dd7;}
+.navCon ul li a{ color:#fff;}
+.navCon ul li a:hover{ color:#fff;}
+.navCon .shoppingCart{ width:114px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 95px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .shoppingCart i{ padding-left:13px; line-height:38px; color:#fff;}
+.navCon .shoppingCart i em{ font-family:"Arial"; color:#ffb380; font-weight:bold;}
+
+.navCon .collectRemind{ width:108px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 90px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .collectRemind i{ padding-left:13px; line-height:38px; color:#fff;}
+
+/*搜索结果*/
+.results{ width:100%; height:29px; background:#f0f0f0; margin-bottom:5px;}
+.resultsCon{ width:1200px; height:29px; margin:0 auto;}
+.resultsCon p{ line-height:29px; font-family:"Arial"; color:#333;}
+.resultsCon p a{ color:#777; text-decoration:none;}
+.resultsCon p a:hover{ color:#777; text-decoration:underline;}
+
+/*搜索区*/
+.area{ width:1200px; margin:0 auto;}
+.record{ width:179px; }
+.record h3{ height:30px; width:177px; border:1px solid #dbdbdb; font-size:14px; font-weight:normal; line-height:30px; background:#ffdc93; text-align:center;}
+.record h3 i{ padding-left:8px; color:#666;}
+.record dl{ width:177px; height:88px; border:1px solid #dbdbdb; border-top:none;}
+.record dl dt{ width:74px; height:88px;}
+.record dl dt img{ margin-top:17px; margin-left:8px;}
+.record dl dd{ width:99px;}
+.record dl dd p{ font-family:"Arial"; margin-top:16px; line-height:18px;}
+.record dl dd p a{ color:#333; text-decoration:none;}
+.record dl dd p a:hover{ text-decoration:underline;}
+.record dl dd i{font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:14px; line-height:23px;}
+
+.content{ width:1010px; }
+.content .conCount{ width:1008px; height:30px; background:#edf3fa; border:1px solid #ccc;}
+.content .conCount h3{ font-family:"Arial"; line-height:30px; font-weight:normal; color:#484848; padding-left:22px;}
+.content .conCount h3 i{ color:#f60; font-weight:bold;}
+.conBrand{ width:1008px; line-height:25px; padding-top:8px; padding-bottom:8px; border-bottom:1px solid #e6e6e6; border-left:1px solid #ccc; border-right:1px solid #ccc;}
+.conBrand span{}
+.conBrand .cBH3{ width:108px; }
+.conBrand .cBH3 h3{ padding-left:50px;  color:#333; font-size:13px;}
+.conBrand .cBCon{ width:780px; margin-left:108px; font-family:"Arial";}
+.conBrand .cBCon a{ padding-right:30px; word-break:normal;}
+.conBrand .cBCon a:hover{ color:#039; text-decoration:underline;}
+.conBrand .cBCon form{ display:inline;}
+.conBrand .cBCon i{ color:#333;}
+.conBrand .cBCon i select{ width:120px; height:23px; border:1px solid #ccc; font-family:"Arial";padding-left:6px;  font-size:12px; background:#fff; color:#484848;}
+.conBrand .cBCon i select option{  font-family:"Arial";padding-left:6px;  font-size:12px; border:none; height: 18px; line-height: 18px; }
+.conBrand .cBCon i input{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial";}
+.conBrand .cBMore{ width:90px;}
+.conBrand .cBMore p{ background:url(../images/search/moreImg.jpg) no-repeat 2px 7px; padding-left:16px;}
+.conBrand .cBMore p a{ color:#039; text-decoration:none;}
+.conBrand .cBMore p a:hover{ color:#039; text-decoration:underline;}
+
+.conMoney{ width:1008px; line-height:21px; padding-top:8px; padding-bottom:8px; border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;}
+.conMoney span{}
+.conMoney .cBH3{ width:108px;}
+.conMoney .cBH3 h3{ padding-left:50px; color:#333; font-size:13px;}
+.conMoney .cBCon{ width:780px; margin-left:108px; font-family:"Arial";}
+.conMoney .cBCon a{ padding-right:30px; word-break:normal;}
+.conMoney .cBCon a:hover{ color:#039; text-decoration:underline;}
+.conMoney .cBCon form{ display:inline;}
+.conMoney .cBCon i{ color:#333;}
+.conMoney .cBCon i .inText{ width:30px; height:23px; border:1px solid #ccc; background:#f9f9f9; padding-left:6px; color:#666;}
+.conMoney .cBCon i .inBut{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial";}
+.conMoney .cBMore{ width:90px;}
+.conMoney .cBMore p{ background:url(../images/search/moreImg.jpg) no-repeat 2px 7px; padding-left:16px;}
+.conMoney .cBMore p a{ color:#039; text-decoration:none;}
+.conMoney .cBMore p a:hover{ color:#039; text-decoration:underline;}
+
+.conSort{ width:1008px; height:37px; margin-top:10px; margin-bottom:40px; border:1px solid #ccc;}
+.conSort p{ line-height:37px; padding:0 18px; border-right:1px solid #ccc;}
+.conSort p:hover{ background:#fff0d9;}
+.conSort p:hover a{color:#ff6c00; text-decoration:underline;}
+
+.conGoods{ width:1010px;}
+.conGoods dl{ width:220px; height:290px; margin:0px 16px 20px 16px; position:relative;}
+.conGoods dl dt{ width:220px; height:168px;}
+.conGoods dl dt img{ margin-top:20px; margin-left:20px;}
+.conGoods dl dd{}
+.conGoods dl dd p{font-family:"Arial"; line-height:18px;}
+.conGoods dl dd p a{ color:#666; text-decoration:none;}
+.conGoods dl dd p a:hover{ color:#039; text-decoration:underline;}
+.conGoods dl dd span{ font-family:"Arial"; line-height:18px; color:#84984f; margin-bottom:5px;}
+.conGoods dl dd i{font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:14px; line-height:25px;}
+.conGoods dl dd .buy{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial"; margin-left:60px;}
+.conGoods dl dd .buy:hover{ background:#ff971c;}
+.conGoods dl dd .collection{ background:#ffc; color:#000; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial";}
+.conGoods dl dd .collection:hover{ }
+.conGoods dl .style{ position:absolute; right:-10px; top:0px;}
+.conPage{ height:24px; line-height:24px; width:1010px; margin-bottom:30px; font-family:"Arial";}
+.conPage i{ color:#999; font-family:"微软雅黑";}
+.conPage a{ padding:5px 6px; border:1px solid #a6a6a6; margin:0 3px; color:#666;}
+.conPage a:hover{  border:1px solid #f60; color:#f60;}
+
+/*图标和Email*/
+.iconAndEmail{ width:1200px; height:25px; margin:20px auto 0 auto;}
+.icon{ height:18px; width:540px;}
+.icon h3{ font-weight:bold; font-size:12px; color:#484848; height:18px; width:80px;  line-height:18px;}
+.icon dl{ }
+.icon dl dt{ width:24px;}
+.icon dl dd{ padding-right:24px; line-height:18px;}
+.icon dl dd a{ color:#666; text-decoration:none;}
+.icon dl dd a:hover{ color:#666; text-decoration:underline;}
+.email{ width:380px; height:25px;}
+.email p{ width:216px; height:36px;}
+.email p .inText{ width:150px; height:23px; background:#f3f3f3; border:1px solid #d8d8d8; color:#b7b7b7; padding-left:8px; margin-right:4px}
+.email p .inBut{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial";}
+.email p .inBut:hover{ background:#ff971c;}
+.email a{ line-height:25px; margin-left:10px;}
+.email a:hover{ text-decoration:underline;}
+
+/*底部备案信息*/
+.footer{ width:1200px; height:220px; margin:10px auto 0 auto; border-top:1px solid #e6e6e6;}
+.footer p{ text-align:center; font-family:"Arial"; color:#666; line-height:18px;}
+.footer .footNav{ height:60px; line-height:60px;}
+.footer p a{ margin:0 10px;}
+.footer p a:hover{ text-decoration:underline;}
+.footer span{ width:478px; height:40px; margin:10px auto;}
+.footer span img{ margin:0 4px;}
+
+#filter a{ cursor:pointer;}
+.seling{ background-color:#005AA0; color:#FFFFFF;}
+.seled{ background-color:#005AA0; color:#FFFFFF;}

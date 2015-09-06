@@ -1,0 +1,24 @@
+/* CSS Document */
+
+#divEdit {
+	display: none;
+}
+
+* {
+	font: 12px Arial;
+}
+
+div#main {
+	margin: 0px auto;
+	width: 600px;
+}
+
+
+#tabEdit input[type="text"],#tabEdit textarea {
+	border: solid #66ccff 1px;
+}
+
+#tabEdit dl {
+	padding-right: 35px;
+}	
+

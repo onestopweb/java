@@ -1,0 +1,111 @@
+/* CSS Document */
+
+/*标头*/
+.header{ width:100%; height:24px; background:#f1f1f1; border-bottom:1px solid #e2e2e2;}
+.header a{ color:#666;}
+.header a:hover{ color:#1e4c9a; text-decoration:underline;}
+.header .headerCon{ width:980px; height:24px; margin:0 auto; position:relative;}
+.headerCon .headerLeft{ width:260px; height:12px; padding-top:7px;}
+.headerCon .headerLeft li{ line-height:12px;}
+.headerCon .headerLeft .phone{ background:url(../images/phone.jpg) no-repeat; margin-left:7px; width:72px; text-align:center;}
+.headerCon .headerLeft .phone:hover{ background:url(../images/phoneHover.jpg) no-repeat;}
+.headerCon .headerLeft .customer{ background:url(../images/customer.jpg) no-repeat; width:70px; text-align:center; padding-left:6px;}
+.headerCon .headerLeft .customer:hover{ background:url(../images/customerHover.jpg) no-repeat;}
+.headerCon .headerLeft .platform{ background:url(../images/platform.jpg) no-repeat; width:104px; text-align:center;}
+.headerCon .headerLeft .platform:hover{ background:url(../images/platformHover.jpg) no-repeat;}
+.headerCon .headerRight{ width:700px; height:23px; margin-top:1px;}
+.headerCon .headerRight li{ height:23px; line-height:23px;}
+.headerCon .headerRight .service{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0; margin-right:7px;}
+.headerCon .headerRight .help{ width:56px; text-align:center;}
+.headerCon .headerRight .myNewegg{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0;}
+.headerCon .headerRight .myOrder{ width:56px; text-align:center;}
+.headerCon .headerRight .welcome{ width:164px; text-align:center;}
+.headerCon .headerRight .regOrLogin{ width:68px; background:url(../images/regOrLogin.jpg) no-repeat 32px 0px;}
+.headerCon .headerRight .username{}
+.headerCon .headerRight .username em{ color:#039; font-family:Arial; font-weight:bold; padding:0 8px;}
+.headerCon .headerRight .username a{ color:#484848; text-decoration:none;}
+.headerCon .headerRight .username a:hover{ color:#039; text-decoration:underline;}
+
+/*logn图片 和搜索栏 和七天退货图片*/
+.searchbar{ width:980px; height:86px; margin:0 auto;}
+.searchbar .logo{ width:326px; height:86px;}
+.searchbar .logo img{ padding:11px 0 0 4px;}
+.searchbar .search{ width:344px; margin-left:42px; margin-top:18px;}
+.searchbar .search span{ width:344px; height:34px; background:url(../images/time/search2.jpg) no-repeat;}
+.searchbar .search span .inputTxt{ width:236px; height:30px; border:2px solid #ff6600; line-height:30px; padding-left:6px;}
+.searchbar .search span .submitBut{border:none; height:30px; width:98px; background:#ff6600; font-size:14px; font-weight:bold; color:#fff;}
+.searchbar .search p{ height:30px; line-height:30px; font-family:"Arial";}
+.searchbar .search p a{ padding:0 16px;}
+
+/*导航*/
+.nav{ background:#10286c; height:40px; width:100%;}
+.navCon{ width:980px; height:40px; margin:0 auto; position:relative;}
+.navCon .allClass{ width:179px; height:40px; background:#ff6600 url(../images/allClassImg.jpg) no-repeat 120px 19px; font-family:"微软雅黑"; color:#fff; font-size:14px; line-height:40px;}
+.navCon .allClass i{ padding-left:20px;}
+.navCon ul{ width:561px; height:40px;  font-family:"微软雅黑"; margin-left:10px; font-size:14px;}
+.navCon ul li{ padding:0 22px; line-height:40px;}
+.navCon ul li:hover{ background:#295dd7;}
+.navCon ul li a{ color:#fff;}
+.navCon ul li a:hover{ color:#fff;}
+.navCon .shoppingCart{ width:114px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 95px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .shoppingCart i{ padding-left:13px; line-height:38px; color:#fff;}
+.navCon .shoppingCart i em{ font-family:"Arial"; color:#ffb380; font-weight:bold;}
+.navCon .collectRemind{ width:108px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 90px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .collectRemind i{ padding-left:13px; line-height:38px; color:#fff;}
+
+
+/*列表结果*/
+.results{ width:100%; height:29px; background:#f0f0f0;}
+.resultsCon{ width:980px; height:29px; margin:0 auto;}
+.resultsCon p{ line-height:29px; font-family:"Arial"; color:#333;}
+.resultsCon p a{ color:#777; text-decoration:none;}
+.resultsCon p a:hover{ color:#777; text-decoration:underline;}
+
+/*banner*/
+.banner{ width:980px; height:203px; margin:5px auto 0 auto;}
+
+/*倒计时*/
+.time{ width:980px; height:45px; margin:0 auto; background:url(../images/time/time.png) no-repeat;}
+.time p{ color:#fff; font-family:"微软雅黑"; font-size:18px; width:32px; height:27px; margin-top:10px; line-height:27px; text-align:center;}
+.time .when{ margin-left:493px;}
+.time .minutes,.time .seconds{ margin-left:26px;}
+
+
+/*产品区*/
+.goods{ width:970px; margin:20px auto 0 auto;}
+.goods div{ border-bottom:1px solid #dbdbdb; width:241px; height:301px;}
+.goods div dl{  width:240px; height:281px; margin-top:10px; margin-bottom:10px;}
+.goods div dl dt{ width:240px; height:140px;}
+.goods div dl dt img{ margin-left:30px;}
+.goods div dl dd{ width:220px; margin:0 auto;}
+.goods div dl dd p{font-family:"Arial"; line-height:18px;}
+.goods div dl dd p a{ color:#666; text-decoration:none;}
+.goods div dl dd p a:hover{ color:#039; text-decoration:underline;}
+.goods div dl dd span{ font-family:"Arial"; line-height:18px; color:#84984f; margin-bottom:5px;}
+.goods div dl dd i{font-family:"微软雅黑"; color:#f60;  font-size:14px; line-height:25px;}
+.goods div dl dd i em{ font-size:18px; font-weight:bold;}
+.goods div dl dd .buy{ background:#f7661f; color:#fff; text-align:center; width:100px; height:32px; line-height:32px; border:none; border-radius:3px; font-family:"Arial"; margin-left:60px; margin-top:10px; font-size:16px; font-weight:bold;}
+.goods div dl dd .buy:hover{ background:#ff971c;}
+
+/*间距*/
+.spacing{ width:980px; height:30px; margin:0 auto;}
+
+
+/*图标和Email*/
+.iconAndEmail{ width:980px; height:25px; margin:0 auto;}
+.icon{ height:18px; width:540px; margin:0 auto;}
+.icon h3{ font-weight:bold; font-size:12px; color:#484848; height:18px; width:80px;  line-height:18px;}
+.icon dl{ }
+.icon dl dt{ width:24px;}
+.icon dl dd{ padding-right:24px; line-height:18px;}
+.icon dl dd a{ color:#666; text-decoration:none;}
+.icon dl dd a:hover{ color:#666; text-decoration:underline;}
+
+/*底部备案信息*/
+.footer{ width:980px; height:220px; margin:10px auto 0 auto; border-top:1px solid #e6e6e6;}
+.footer p{ text-align:center; font-family:"Arial"; color:#666; line-height:18px;}
+.footer .footNav{ height:60px; line-height:60px;}
+.footer p a{ margin:0 10px;}
+.footer p a:hover{ text-decoration:underline;}
+.footer span{ width:478px; height:40px; margin:10px auto;}
+.footer span img{ margin:0 4px;}

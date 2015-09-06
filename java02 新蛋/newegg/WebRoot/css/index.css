@@ -1,0 +1,210 @@
+/* CSS Document */
+
+/*标头*/
+.header{ width:100%; height:24px; background:#f1f1f1; border-bottom:1px solid #e2e2e2;}
+.header a{ color:#666;}
+.header a:hover{ color:#1e4c9a; text-decoration:underline;}
+.header .headerCon{ width:1200px; height:24px; margin:0 auto; position:relative;}
+.headerCon .headerLeft{ width:260px; height:12px; padding-top:7px;}
+.headerCon .headerLeft li{ line-height:12px;}
+.headerCon .headerLeft .phone{ background:url(../images/phone.jpg) no-repeat; margin-left:7px; width:72px; text-align:center;}
+.headerCon .headerLeft .phone:hover{ background:url(../images/phoneHover.jpg) no-repeat;}
+.headerCon .headerLeft .customer{ background:url(../images/customer.jpg) no-repeat; width:70px; text-align:center; padding-left:6px;}
+.headerCon .headerLeft .customer:hover{ background:url(../images/customerHover.jpg) no-repeat;}
+.headerCon .headerLeft .platform{ background:url(../images/platform.jpg) no-repeat; width:104px; text-align:center;}
+.headerCon .headerLeft .platform:hover{ background:url(../images/platformHover.jpg) no-repeat;}
+.headerCon .headerRight{ width:700px; height:23px; margin-top:1px;}
+.headerCon .headerRight li{ height:23px; line-height:23px;}
+.headerCon .headerRight .service{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0; margin-right:7px;}
+.headerCon .headerRight .help{ width:56px; text-align:center;}
+.headerCon .headerRight .myNewegg{ width:73px; padding-left:11px; background:url(../images/choose.jpg) no-repeat 67px 0;}
+.headerCon .headerRight .myOrder{ width:56px; text-align:center;}
+.headerCon .headerRight .welcome{ width:164px; text-align:center;}
+.headerCon .headerRight .regOrLogin{ width:68px; background:url(../images/regOrLogin.jpg) no-repeat 32px 0px;}
+.headerCon .headerRight .username{}
+.headerCon .headerRight .username em{ color:#039; font-family:Arial; font-weight:bold; padding:0 8px;}
+.headerCon .headerRight .username a{ color:#484848; text-decoration:none;}
+.headerCon .headerRight .username a:hover{ color:#039; text-decoration:underline;}
+
+/*banner*/
+.banner{ width:1200px; height:60px; margin:0 auto;}
+
+/*logn图片 和搜索栏 和七天退货图片*/
+.searchbar{ width:1200px; height:86px; margin:0 auto;}
+.searchbar .logo{ width:326px; height:86px;}
+.searchbar .logo img{ padding:11px 0 0 4px;}
+.searchbar .search{ width:439px; margin-left:42px; margin-top:18px;}
+.searchbar .search span{ width:439px; height:34px; background:url(../images/search.jpg) no-repeat;}
+.searchbar .search span .inputTxt{ width:331px; height:30px; border:2px solid #ff6600; line-height:30px; padding-left:6px;}
+.searchbar .search span .submitBut{border:none; height:30px; width:98px; background:#ff6600; font-size:14px; font-weight:bold; color:#fff;}
+.searchbar .search p{ height:30px; line-height:30px; font-family:"Arial";}
+.searchbar .search p a{ padding:0 16px;}
+
+/*导航*/
+.nav{ background:#10286c; height:40px; width:100%;}
+.navCon{ width:1200px; height:40px; margin:0 auto; position:relative;}
+.navCon .allClass{ width:179px; height:40px; background:#ff6600 url(../images/allClassImg.jpg) no-repeat 120px 19px; font-family:"微软雅黑"; color:#fff; font-size:14px; line-height:40px;}
+.navCon .allClass i{ padding-left:20px;}
+.navCon ul{ width:781px; height:40px;  font-family:"微软雅黑"; margin-left:10px; font-size:14px;}
+.navCon ul li{ padding:0 22px; line-height:40px;}
+.navCon ul li:hover{ background:#295dd7;}
+.navCon ul li a{ color:#fff;}
+.navCon ul li a:hover{ color:#fff;}
+.navCon .shoppingCart{ width:114px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 95px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .shoppingCart i{ padding-left:13px; line-height:38px; color:#fff;}
+.navCon .shoppingCart i em{ font-family:"Arial"; color:#ffb380; font-weight:bold;}
+
+.navCon .collectRemind{ width:108px; height:38px; background:#ff6600 url(../images/shoppingCartORcollectRemindImg.jpg) no-repeat 90px 18px; border:2px solid #f60; border-bottom:none;}
+.navCon .collectRemind i{ padding-left:13px; line-height:38px; color:#fff;}
+
+/*第一屏*/
+.screen{ width:1200px; height:488px; margin:0 auto;}
+
+.screen .navHover{ width:179px; height:488px;}
+.screen .bbt{ width:771px; height:488px; margin-left:11px;}
+.screen .bbt .bannerPPT{ width:771px; height:245px; margin-top:10px;}
+.screen .bbt .timePPT{ width:771px; height:233px;}
+.screen .switch{ width:230px; height:488px; margin-left:9px;}
+.screen .switch .switchImg1{ width:230px; height:245px; margin-top:10px;}
+.screen .switch .switchImg2{ width:230px; height:218px; margin-top:10px;}
+
+/*热卖区*/
+.hot{ width:1200px; height:282px; margin:4px auto;}
+.hotArea{ width:960px; height:282px;}
+.hotArea .hotAreaText{ width:960px; height:40px; border-bottom:3px solid #ff6600; background:url(../images/index/refresh.jpg) no-repeat 80px 12px;}
+.hotArea .hotAreaText h3{ font-family:"黑体"; color:#ff6600; font-weight:bold; font-size:20px; line-height:40px; padding-left:10px;}
+.hotArea .hotAreaText a{ line-height:40px; color:#666; padding-left:26px; text-decoration:none;}
+.hotArea .hotAreaText i{ line-height:40px;}
+.hotArea .hotAreaText a:hover{ text-decoration:underline;}
+.hotArea .hotAreaGoods{ height:237px; width:958px; border:1px solid #dadada;}
+.hotArea .hotAreaGoods dl{ width:196px; height:230px; position:relative; margin:0 20px 0 20px;}
+.hotArea .hotAreaGoods dl dt{ width:196px; height:150px;}
+.hotArea .hotAreaGoods dl dt img{ margin-top:15px; margin-left:8px; width:180px; height:135px;}
+.hotArea .hotAreaGoods dl dd{ }
+.hotArea .hotAreaGoods dl dd p{ font-family:"Arial"; line-height:18px; margin-top:4px;}
+.hotArea .hotAreaGoods dl dd p a{ color:#666; text-decoration:none;}
+.hotArea .hotAreaGoods dl dd p a:hover{ color:#666; text-decoration:underline;}
+.hotArea .hotAreaGoods dl dd i{ font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:14px; margin-top:4px; margin-left:16px;}
+.hotArea .hotAreaGoods dl dd input{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial"; margin-right:47px;}
+.hotArea .hotAreaGoods dl dd input:hover{ background:#ff971c;}
+.hotArea .hotAreaGoods dl .style{ position:absolute; top:14px; left:154px;}
+
+.hotSidebar{ width:230px; height:269px; margin-top:13px;}
+.hotSidebar .phoneMoney{ width:228px; height:138px; border:1px solid #d9d9d9;}
+.hotSidebar .phoneMoney h3{ color:#ff6600; font-family:"微软雅黑"; font-weight:normal; font-size:14px; height:34px; line-height:34px; padding-left:13px;}
+.hotSidebar .phoneMoney p{ height:28px; line-height:28px; color:#484848; padding-left:12px; margin-bottom:7px;}
+.hotSidebar .phoneMoney p .number{ width:151px; height:26px; background:#fff url(../images/index/phoneMoneyImg.jpg) no-repeat 145px 11px; border:1px solid #bfbfbf; padding-left:8px; color:#f60; font-family:"Arial"; font-weight:bold; font-size:14px;}
+.hotSidebar .phoneMoney p .money{ width:51px; height:24px; background:#fff url(../images/index/phoneMoneyImg.jpg) no-repeat 45px 11px; border:1px solid #bfbfbf; padding-left:8px; color:#666; font-family:"Arial"; font-weight:bold;}
+.hotSidebar .phoneMoney p i{ color:#f60; font-family:"Arial"; font-weight:bold; font-size:14px;}
+.hotSidebar .phoneMoney .topUp{background:#f7661f; color:#fff; text-align:center; width:70px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial"; margin-left:54px;}
+.hotSidebar .phoneMoney .topUp:hover{ background:#ff971c;}
+.hotSidebar .hotSwitch{ width:230px; height:120px; margin-top:9px;}
+
+/*好评热品*/
+.good{ height:320px; width:1200px; margin:10px auto 20px auto;}
+.goodText{ width:1200px; height:40px; border-bottom:3px solid #ff6600;}
+.goodText h3{ font-family:"黑体"; color:#ff6600; font-weight:bold; font-size:20px; line-height:40px; padding-left:10px;}
+.goodText i{ line-height:40px; padding-right:8px;}
+
+.goodGoods{ width:1200px; height:277px;}
+
+/*推荐页面*/
+.recommended{ width:1198px; height:268px; margin:0 auto; border:1px solid #d9d9d9;}
+.recommendedPPT{ width:959px; height:268px; border-right:1px solid #d9d9d9;}
+.recommendedPPT .rPTop{ width:959px; height:30px;}
+.recommendedPPT .rPTop h3{ width:239px; height:29px; line-height:28px; text-align:center; font-family:"微软雅黑"; background:#f6f6f6; font-size:14px; font-weight:normal; line-height:29px; border-bottom:1px solid #d9d9d9; border-right:1px solid #d9d9d9;}
+.recommendedPPT .rPTop .rPTopOlone{ border-right:none;}
+#rPTop1{ background:#fff; color:#f60; border-bottom:1px solid #fff;}
+
+.recommendedPPT .rPCon{ width:958px; height:238px;}
+.recommendedPPT .rPCon dl{ width:150px; height:183px; margin:30px 20px 0 20px;}
+.recommendedPPT .rPCon dl dt{ width:150px; height:116px;}
+.recommendedPPT .rPCon dl dt img{ width:144px; height:108px; margin-left:3px;}
+.recommendedPPT .rPCon dl dd {}
+.recommendedPPT .rPCon dl dd p{ font-family:"Arial"; line-height:18px; margin-bottom:6px;}
+.recommendedPPT .rPCon dl dd p a{ color:#666; text-decoration:none;}
+.recommendedPPT .rPCon dl dd p a:hover{ color:#666; text-decoration:underline;}
+.recommendedPPT .rPCon dl dd i{ font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:14px; margin-top:4px; }
+
+.recommendedSwitch{width:238px; height:268px;}
+
+/*产品区*/
+.goods{ height:505px; width:1200px; margin:20px auto;}
+.goodsArea{ width:960px; height:505px;}
+/*--手机*/
+.goodsArea .gAH3{ height:38px; width:960px; border-top:1px solid #e6e6e6; border-bottom:3px solid #2565bd;}
+.goodsArea .gAH3 h3{ height:38px; line-height:38px; color:#2565bd; font-family:"黑体"; font-weight:bold; font-size:20px; padding-left:10px;}
+/*--电脑*/
+.goodsArea .gAH3-2{ height:38px; width:960px; border-top:1px solid #e6e6e6; border-bottom:3px solid #f60;}
+.goodsArea .gAH3-2 h3{ height:38px; line-height:38px; color:#f60; font-family:"黑体"; font-weight:bold; font-size:20px; padding-left:10px;}
+.goodsArea .gACon{ width:950px; height:409px; border-left:1px solid #dadada; border-right:1px solid #dadada; padding-left:8px;}
+.goodsArea .gACon dl{ width:196px; height:195px; margin:0 18px 0 18px;}
+.goodsArea .gACon dl{ width:196px; height:195px; position:relative; margin:0 20px 0 20px;}
+.goodsArea .gACon dl dt{ width:196px; height:132px;}
+.goodsArea .gACon dl dt img{ margin-top:24px; margin-left:26px; width:144px; height:108px;}
+.goodsArea .gACon dl dd{ }
+.goodsArea .gACon dl dd p{ font-family:"Arial"; line-height:18px; margin-top:4px;}
+.goodsArea .gACon dl dd p a{ color:#666; text-decoration:none;}
+.goodsArea .gACon dl dd p a:hover{ color:#666; text-decoration:underline;}
+.goodsArea .gACon dl dd i{ font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:14px; margin-top:4px;}
+.goodsArea .gACon dl .style{ position:absolute; top:24px; left:154px;}
+.goodsPPT{ width:469px; height:195px; margin:0 1px 0 2px;}
+.goodsArea .gALogo{ width:958px; height:52px; border:1px solid #dadada;}
+.goodsArea .gALogo p{ width:100px; height:40px; overflow:hidden; margin:6px 9px; position:relative;}
+.goodsArea .gALogo p:hover img{ position:absolute; top:-40px; left:0;}
+
+.goodSranking{ width:230px; height:505px;}
+.goodSranking .gSranking{ width:228px; height:402px; border:1px solid #d9d9d9;}
+.goodSranking .gSranking .gSH3{ height:31px; width:228px; background:url(../images/index/gSH3Bj.jpg) repeat-x 0 30px;}
+.goodSranking .gSranking .gSH3 span{ width:49px; height:30px; border-bottom:1px solid #d9d9d9; color:#666; text-align:center; line-height:30px;}
+.goodSranking .gSranking .gSH3 h3{ width:56px; height:26px; color:#999999; font-weight:normal; line-height:26px; font-size:12px; background:#e9e9e9; border-left:1px solid #e9e9e9; border-top:1px solid #e9e9e9; border-right:1px solid #e9e9e9; border-bottom:1px solid #d9d9d9; margin-top:3px; margin-right:1px; text-align:center; }
+.goodSranking .gSranking .gSCon{ width:228px; height:371px;}
+.goodSranking .gSranking .gSCon dl{ height:92px; width:22px;  border-bottom:1px solid #d9d9d9; width:228px;}
+.goodSranking .gSranking .gSCon .dlOlone{ border:none;}
+.goodSranking .gSranking .gSCon dl dt{ width:100px; height:92px;}
+.goodSranking .gSranking .gSCon dl dt img{ width:80px; height:60px; margin-left:10px; margin-top:16px;}
+.goodSranking .gSranking .gSCon dl dd{ width:117px;}
+.goodSranking .gSranking .gSCon dl dd p{ margin-top:20px; line-height:18px;}
+.goodSranking .gSranking .gSCon dl dd p a{ font-family:"Arial"; color:#000; text-decoration:none;}
+.goodSranking .gSranking .gSCon dl dd p a:hover{ color:#000; text-decoration:underline;}
+.goodSranking .gSranking .gSCon dl dd i{ font-family:"微软雅黑"; color:#f60; font-weight:bold; font-size:12px; margin-top:4px;}
+.goodSranking .gImg{ width:230px; height:91px; margin-top:10px;}
+
+/*功能区*/
+.function{ width:1200px; height:82px; margin:0px auto;}
+.function span{ width:193px; height:80px; margin-right:6px;}
+.function .fun01{ border:1px solid #ffcccc;}
+.function .fun02{ border:1px solid #ffe0cc;}
+.function .fun03{ border:1px solid #caf2c2;}
+.function .fun04{ border:1px solid #c2eef2;}
+.function .fun05{ border:1px solid #ccddff;}
+.function .fun06{ margin:0; border:1px solid #e6ccff;}
+.function span img{ margin:2px 0 0 2px; width:189px; height:76px;}
+
+/*图标和Email*/
+.iconAndEmail{ width:1200px; height:25px; margin:20px auto 0 auto;}
+.icon{ height:18px; width:540px;}
+.icon h3{ font-weight:bold; font-size:12px; color:#484848; height:18px; width:80px;  line-height:18px;}
+.icon dl{ }
+.icon dl dt{ width:24px;}
+.icon dl dd{ padding-right:24px; line-height:18px;}
+.icon dl dd a{ color:#666; text-decoration:none;}
+.icon dl dd a:hover{ color:#666; text-decoration:underline;}
+.email{ width:380px; height:25px;}
+.email p{ width:216px; height:36px;}
+.email p .inText{ width:150px; height:23px; background:#f3f3f3; border:1px solid #d8d8d8; color:#b7b7b7; padding-left:8px; margin-right:4px}
+.email p .inBut{ background:#f7661f; color:#fff; text-align:center; width:46px; height:25px; line-height:25px; border:none; border-radius:3px; font-family:"Arial";}
+.email p .inBut:hover{ background:#ff971c;}
+.email a{ line-height:25px; margin-left:10px;}
+.email a:hover{ text-decoration:underline;}
+
+/*底部备案信息*/
+.footer{ width:1200px; height:220px; margin:10px auto 0 auto; border-top:1px solid #e6e6e6;}
+.footer p{ text-align:center; font-family:"Arial"; color:#666; line-height:18px;}
+.footer .footNav{ height:60px; line-height:60px;}
+.footer p a{ margin:0 10px;}
+.footer p a:hover{ text-decoration:underline;}
+.footer span{ width:478px; height:40px; margin:10px auto;}
+.footer span img{ margin:0 4px;}
+
+
